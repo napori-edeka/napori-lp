@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css" />
+
+  <title>お問い合わせ | 株式会社napori</title>
+  <meta name="description" content="株式会社naporiへのお問い合わせ（メール、電話、フォーム）">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="/" aria-label="napori home">napori</a>
+      </div>
+      <nav class="menu" aria-label="primary">
+        <a href="/">トップ</a>
+        <a href="/company/">企業情報</a>
+        <a href="/contact/" style="background:rgba(255,255,255,.06); color:var(--text)">お問い合わせ</a>
+        <a href="/finance/">決算関連情報</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <div class="wrap">
+        <div class="section-title">
+          <h2>お問い合わせ</h2>
+          <p class="sub">Contact</p>
+        </div>
+
+        <div class="card contact">
+          <p><b>メールアドレス：</b><a href="mailto:napori1111@gmail.com">napori1111@gmail.com</a></p>
+          <p><b>電話番号：</b><a href="tel:+81366920713">03-6692-0713</a></p>
+
+          <p class="small" style="margin-top:12px;">
+            お問い合わせフォーム（Googleフォーム）：
+          </p>
+          <div class="cta" style="margin-top:10px;">
+            <a class="btn primary" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSeNVhiW7R1ehIRdVCzqbUnKLhSFcmIoF8V75UtdvRUKQQ6YjA/viewform?usp=publish-editor">
+              フォームを開く
+            </a>
+            <a class="btn" href="/company/">企業情報</a>
+          </div>
+
+          <p class="small" style="margin-top:14px;">
+            ※ 返信までにお時間をいただく場合があります。お急ぎの場合はお電話をご利用ください。
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+        <div>© <span id="y"></span> 株式会社napori</div>
+        <div style="color:rgba(185,198,230,.8);">IT × Beauty</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

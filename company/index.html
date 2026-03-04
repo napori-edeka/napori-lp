@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css" />
+
+  <title>企業情報 | 株式会社napori</title>
+  <meta name="description" content="株式会社naporiの企業情報（社名、所在地、代表、法人番号）">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="/" aria-label="napori home">napori</a>
+      </div>
+      <nav class="menu" aria-label="primary">
+        <a href="/">トップ</a>
+        <a href="/company/" style="background:rgba(255,255,255,.06); color:var(--text)">企業情報</a>
+        <a href="/contact/">お問い合わせ</a>
+        <a href="/finance/">決算関連情報</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <div class="wrap">
+        <div class="section-title">
+          <h2>企業情報</h2>
+          <p class="sub">Company Profile</p>
+        </div>
+
+        <div class="card panel">
+          <ul class="list" style="margin-top:0">
+            <li><b style="color:var(--text)">社名</b><br/>株式会社napori</li>
+            <li><b style="color:var(--text)">所在地</b><br/>東京都中央区銀座1丁目22番11号銀座大竹ビジデンス2F</li>
+            <li><b style="color:var(--text)">代表</b><br/>大河原　かえで</li>
+            <li><b style="color:var(--text)">法人番号</b><br/>6010001262855</li>
+          </ul>
+
+          <div class="cta" style="margin-top:14px;">
+            <a class="btn primary" href="/contact/">お問い合わせ</a>
+            <a class="btn" href="/finance/">決算関連情報</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+        <div>© <span id="y"></span> 株式会社napori</div>
+        <div style="color:rgba(185,198,230,.8);">IT × Beauty</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
